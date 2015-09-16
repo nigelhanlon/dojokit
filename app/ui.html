@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Hello World!</title>
-    <script>
-	var gui = require('nw.gui');
-	var win = gui.Window.get();
-	win.maximize();
-	win.on ('loaded', function(){
-		window.location.href = "http://www.coderdojomullingar.com";
-	});
-    </script>
+    <title>DojoKit - Loading..</title>
+    <link rel="stylesheet" href="css/ui.css" type="text/css">
   </head>
   <body>
-    <br/><br/><br/><br/>
-    <center><img src="img/logo.png" /></center>
+    <div class="logo_div">
+        <img src="img/logo.png" height="250px"/>
+    </div>
+
+    <div class="loader_div">
+        <img src="img/loader.gif" />
+    </div>
+
+    <br/>
+    <script src="js/ui.js" type="text/javascript"></script>
   </body>
 </html>
